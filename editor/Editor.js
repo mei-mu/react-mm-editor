@@ -2,7 +2,6 @@ import { Editor } from 'slate-react';
 import { Value } from 'slate';
 
 import React from 'react';
-// import { Popover } from 'antd';
 import Tippy from '@tippy.js/react';
 
 import SerialComment from './serialComment';
