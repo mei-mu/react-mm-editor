@@ -36,7 +36,6 @@
         "scss-loader": "^0.0.1",
         "style-loader": "^0.23.1",
         "ts-loader": "^5.3.3",
-        "typescript": "^3.3.4000",
         "webpack-cli": "^3.3.0"
     }
 }
