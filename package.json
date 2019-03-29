@@ -2,8 +2,9 @@
     "name": "react-mm-editor",
     "version": "1.0.0",
     "description": "an editor support wechat emoji",
-    "main": "index.js",
+    "main": "./build/index.js",
     "scripts": {
+        "build": "webpack",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "keywords": [
@@ -15,9 +16,27 @@
     "license": "ISC",
     "dependencies": {
         "@tippy.js/react": "^2.1.2",
+        "immutable": "^4.0.0-rc.12",
         "react-dom": "^16.8.5",
         "react-router-dom": "^5.0.0",
         "slate": "^0.34.7",
-        "slate-react": "^0.13.4"
+        "slate-react": "^0.13.4",
+        "webpack": "^4.29.6"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.2.3",
+        "@babel/core": "^7.4.0",
+        "@babel/plugin-proposal-class-properties": "^7.4.0",
+        "@babel/preset-env": "^7.4.2",
+        "babel-loader": "^8.0.5",
+        "babel-plugin-transform-object-rest-spread": "^6.26.0",
+        "babel-plugin-transform-react-jsx": "^6.24.1",
+        "babel-preset-env": "^1.7.0",
+        "css-loader": "^2.1.1",
+        "scss-loader": "^0.0.1",
+        "style-loader": "^0.23.1",
+        "ts-loader": "^5.3.3",
+        "typescript": "^3.3.4000",
+        "webpack-cli": "^3.3.0"
     }
 }
