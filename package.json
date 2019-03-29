@@ -1,0 +1,16 @@
+{
+    "name": "react-mm-editor",
+    "version": "1.0.0",
+    "description": "an editor support wechat emoji",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "editor",
+        "slate",
+        "emoji"
+    ],
+    "author": "memuu",
+    "license": "ISC"
+}
